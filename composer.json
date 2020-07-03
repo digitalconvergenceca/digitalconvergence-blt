@@ -1,0 +1,13 @@
+{
+  "name": "digitalconvergence/digitalconvergence-blt",
+  "description": "A set of utilities and helpers for Acquia BLT 12+.",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "DigitalConvergence\\Blt\\": "./src/"
+    },
+    "classmap": [
+      "src/Plugin/EnvironmentDetector/EnvironmentVariableDetector.php"
+    ]
+  }
+}
