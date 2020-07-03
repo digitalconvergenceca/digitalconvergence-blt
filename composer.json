@@ -4,10 +4,10 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "DigitalConvergence\\Blt\\": "./src/"
+      "DigitalConvergence\\Blt\\": "./src/Blt/"
     },
     "classmap": [
-      "src/Plugin/EnvironmentDetector/EnvironmentVariableDetector.php"
+      "src/Blt/Plugin/EnvironmentDetector/EnvironmentVariableDetector.php"
     ]
   }
 }
